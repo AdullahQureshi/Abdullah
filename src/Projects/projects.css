@@ -1,0 +1,140 @@
+
+.p{
+    height: 100vh;
+    width: 100%;
+    background-color: darkred;
+    /* background: #7c51a7; */
+}
+
+.p-nav{
+    height: 12vh;
+    width: 100%;
+background: #000;
+
+}
+
+.p-ul{
+     height: 100%;
+     width: 100%;
+     display: flex;
+     justify-content: space-evenly;
+     align-items: center;
+}
+
+.p-li{
+    list-style: none;
+    color: rgb(255, 255, 255);
+    font-size: large;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+.p-li:hover{
+    color: wheat;
+}
+
+.fa-html5{
+    color: 	rgb(227, 76, 38);
+    font-size:x-large;
+}
+
+.fa-css3-alt{
+    color: #2965f1;
+    font-size: x-large;
+}
+
+.fa-js-square{
+    color: 	rgb(240, 219, 79);
+    font-size:x-large;
+}
+
+.fa-bootstrap{
+    color: #563d7c;
+    font-size:x-large;
+}
+
+.fa-react{
+    color: #61DBFB;
+    font-size:x-large;
+}
+
+.fa-node-js{
+    color: #3c873a;
+    font-size:x-large;
+}
+
+.fa-database{
+    color: cornsilk;
+    font-size:x-large;
+}
+
+.p-projects{
+    height: 88vh;
+    width: 101%;
+    /* background: rgb(194, 194, 212); */
+    display: flex;
+    justify-content: space-between;
+}
+
+.card{
+    height:30vh;
+    /* width: 20%; */
+    margin: 2% 3%;
+    /* background: rgb(2, 9, 48); */
+    color: white;
+    /* border-radius: 20px; */
+}
+
+.card:hover{
+    transition-duration: 1s;
+    margin-top: 1%;
+}
+.card-img-top{
+    height: 50%;
+    width: 100%;
+
+}
+
+.card-body{
+    height: 13vh;
+    width: 100%;
+    background: linear-gradient(to right, #870000, #190a05); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between ;
+    align-items: center;
+}
+
+
+.card-title{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+    font-weight: bold ;
+    color: rgb(0, 0, 0);
+}
+
+
+.card-text{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: burlywood;
+}
+@media screen and (max-width:480px) {
+
+    .p{
+        height: auto;
+    }
+
+    .p-projects{
+        height: auto;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+    .card{
+       /* height: 40vh; */
+        width: 80%; 
+    }
+
+    .card-body{
+        height: 9vh;
+    }
+}

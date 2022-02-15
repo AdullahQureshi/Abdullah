@@ -1,0 +1,154 @@
+.i{
+    display: flex;
+    height: 100vh;
+    
+}
+
+.i-left{
+    flex:1;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.i-right{
+    flex:1;
+    position: relative;
+}
+
+.i-left-wrapper{
+    padding: 50px;
+    height: 50%;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.i-intro{
+    font-size: 30px;
+    font-weight: 300;
+
+}
+
+.i-name{
+    font-size: 30px;
+    font-family: sans-serif;
+    /* position: absolute; */
+    width: 15ch;
+    color: darkslategray;
+    /* font-size: x-large; */
+   
+    animation:anim 2s steps(25) infinite alternate;
+    /* border-right: 2px solid; */
+    overflow:hidden;
+    white-space: nowrap;
+}
+
+
+@keyframes anim{
+    from{width:0ch;}
+
+    to{width:15ch;}
+}
+
+
+
+
+
+.i-title{
+    /* height: 60px; */
+    font-size:30px;
+    overflow: hidden;
+    /* border: 1px solid red; */
+}
+
+.i-title-wrapper{
+    /* height:100%; */
+    /* border: 1px solid; */
+    height: 35px;
+    animation: move 5s ease-in-out infinite alternate;
+}
+
+.i-title-item {
+    /* height: 50px; */
+    font-size: 30px;
+    font-weight: bold;
+    font-family: cursive;
+    color: rgb(243, 30, 30);
+    display:flex;
+    align-items: center;
+}
+
+
+@keyframes move{
+    25%{
+        transform: translateY(-55px);
+    }
+
+    50%{
+        transform: translateY(-116px);
+    }
+
+    75%{
+        transform: translateY(-174px);
+    }
+
+    100%{
+        transform: translateY(-232px);
+    }
+}
+
+
+.i-img{
+    width: 100%;
+    height:100%;
+    /* border-radius: 50%; */
+    object-fit: cover;
+    position: absolute;
+
+}
+
+.i-bg {
+
+     position: absolute;
+     clip-path: polygon(67% 0, 100% 0, 100% 50%, 100% 100%, 66% 100%, 45% 50%);
+     background:#59b256;
+     height: 100%;
+     width: 100%;
+     top: 0;
+     right: 0;
+}
+
+
+
+
+
+@media screen and (max-width:480px) {
+
+       .i {
+           flex-direction: column;
+          }
+
+          
+        
+       .i-left-wrapper {
+        padding: 10px;
+        height: 100%;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+           }
+
+       .i-desc {
+        display: none;
+    }
+
+       .i-intro{
+        display: none;
+    }
+
+    .i-title{
+        font-size: 10px;
+    }
+
+}

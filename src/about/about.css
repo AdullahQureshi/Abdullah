@@ -1,0 +1,72 @@
+.a{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    
+}
+
+.a-left{
+    flex:1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    height: 100%;
+}
+
+.a-card.bg{
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    /* background: #333; */
+}
+
+.a-card{
+    width: 60%;
+    height: 70vh;
+    border-radius: 30px;
+    position: relative;
+    overflow: hidden;
+
+}
+
+.git-btn{
+    height: 50px;
+    width: 100px;
+    border-radius: 10px;
+    background: #59b256;
+}
+
+.a-img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+.a-right{
+    flex:1;
+}
+
+
+
+@media screen and (max-width:480px) {
+    .a{
+        flex-direction: column;
+        text-align: center;
+        margin-top: 100px;
+    }
+
+    .a-left{
+        width: 100%;
+        height: 50%;
+    }
+
+    .a-card.bg{
+        display: none;
+    }
+
+    .a-right{
+        padding: 20px;
+    }
+}
