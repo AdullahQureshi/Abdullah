@@ -19,7 +19,7 @@ const Intro = () => {
                         </div>
                     </div>
                     <p className="i-desc">
-                        i can design and create full fledge frontend and backend of a websites with lastest technologies.
+                        i can design full fledge frontend and backend of a websites with lastest technologies.
                     </p>
                 </div>
                 

@@ -18,9 +18,14 @@ const About = () => {
                </div>
              <div className="a-right">
                  <h1 className='a-title'>About Me</h1>
-                 <p className='a-sub'>I can create full fledge responsive frontend and backend of Web applications
-                  using lastest technologies like: 
-                  <i class="fab fa-html5"></i>
+                     <p className="ab-p">Dedicated MERN Stack developer training in the latest technologies.</p>
+                     <p className="ab-p">Building highly responsive and quality we& b applications with MERN Technologies.</p>
+                     <p className="ab-p">Brief knowledge & understanding of React & Redux.</p>
+                     <p className="ab-p">Strong project management skills, customer service, strong collaborative skills.</p>
+                     <p className="ab-p">Excellent problem solving skills.</p>
+
+                 <p className='a-sub'>
+                  <i class="fab fa-html5 px-2"></i>
                   <i class="fab fa-css3-alt"></i>
                   <i class="fab fa-bootstrap"></i>
                   <i class="fab fa-js-square"></i>
@@ -29,7 +34,7 @@ const About = () => {
                   <i class="fas fa-database" style={{color:'black'}}></i>
                   </p>
                  <div className="github">
-                     <h5>check my  Github Profile</h5>
+                     <h5>Github Profile</h5>
                  <a href='https://github.com/AdullahQureshi'><button className='git-btn btn btn-success'>Profile</button></a>   
                  
                  </div>
