@@ -120,6 +120,7 @@ background: #000;
 
     .p{
         height: auto;
+        margin-top: 20%;
     }
 
     .p-projects{
@@ -136,5 +137,8 @@ background: #000;
 
     .card-body{
         height: 9vh;
+    }
+    .card-text{
+        font-size: smaller;
     }
 }

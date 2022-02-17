@@ -272,7 +272,7 @@ const Projects = () => {
                    <h5 className="card-title">DevBootcamp</h5>
                         <div className="card-body" >
                      <p className="card-text" >Nodemailer<br/>JWT authenctications<br/>Geocoder</p>
-                     <a href="https://adullahqureshi.github.io/Devbootcamp/" className="btn btn-primary">Go</a>
+                     <a href="https://adullahqureshi.github.io/Techcamp/" className="btn btn-primary">Go</a>
                         </div>
                 </div>
                         }
